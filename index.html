@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3.CSS Template</title>
+    <link rel="shortcut icon" href="https://yt3.googleusercontent.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj" type="image/ico">
+    <style>
+        #art{
+            display:inline-block;
+            width: 300px;
+            height: 30px;
+            margin: 15px;
+            padding-top: 15px;
+            padding-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #art:hover{
+            background-color: rgba(128, 128, 128,0.5);
+        }
+        #project{
+            display:inline-block;
+            width: 100px;
+            height: 30px;
+            margin: 15px;
+            text-align: center;
+            padding-top: 15px;
+            position: absolute;
+            top: 6px;
+            left:1200px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #project:hover{
+            background-color: rgba(128, 128, 128,0.5);
+        }
+        #about{
+            display:inline-block;
+            width: 100px;
+            height: 30px;
+            margin: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding-top: 15px;
+            position: absolute;
+            top: 6px;
+            left:1300px;
+         }
+         #about:hover{
+            background-color: rgba(128, 128, 128,0.5);
+        }
+        #contact{
+            display:inline-block;
+            width: 100px;
+            height: 30px;
+            margin: 15px;
+            text-align: center;
+            padding-top: 15px;
+            position: absolute;
+            top: 6px;
+            left:1400px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        #contact:hover{
+            background-color: rgba(128, 128, 128,0.5);
+        }
+       #phone{
+        margin-left: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       #charger{
+        margin-left: 25px;
+        margin-top: -170px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+
+        
+        .col{
+            width: 100%;
+            height:500px;
+            display: inline-block;
+            margin: 0px;
+            border: 0px;
+        }
+
+
+        #col1{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-left:25px;
+        }
+        #col2{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px;
+
+        }
+        #col3{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px;
+        }
+        #col4{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-right:20px;
+            padding-left:15px
+        }
+        #summer{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:970px;
+            left: 33px;
+            
+        }
+        #brick{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:970px;
+            left:402px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #renovated{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:970px;
+            left:771px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #barn{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:970px;
+            left:1140px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #sum{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:1240px;
+            left:33px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #bri{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:1240px;
+            left:402px ;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #ren{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:1240px;
+            left:771px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #bar{
+            width: 150px;
+            height: 20px;
+            background-color: black;
+            color:white;
+            padding:5px;
+            text-align: center;
+            padding-bottom:8px;
+            position: absolute;
+            top:1240px;
+            left:1140px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .row{
+            width: 100%;
+            height:500px;
+            display: inline-block;
+            margin-top:-230px;
+        }
+        #row1{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-left:25px;
+        }
+        #row2{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px;
+
+        }
+        #row3{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px;
+        }
+        #row4{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-right:20px;
+            padding-left:15px
+        }
+        .img{
+            width: 100%;
+            height:500px;
+            display: inline-block;
+            margin: 0px;
+            border: 0px;
+        }
+        #img1{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-left:25px;
+            display: inline-block;
+        }
+        #img2{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px;
+        }
+        #img3{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px; 
+        }
+        #img4{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-right:20px;
+            padding-left:15px
+        }
+        .text{
+            width: 100%;
+            height:500px;
+            margin-top:-230px;
+        }
+        #p1{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-left:25px;
+        }
+        #p2{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px;
+            position: relative;
+            top:-350px;
+            left:385px;
+  
+        }
+        #p3{
+            width:350px;
+            height:250px;
+            padding-top:30px;
+            padding-left: 15px;
+            position: relative;
+            top:-700px;
+            left:750px;
+        }
+        #p4{
+            width:350px;
+            height:250px;
+            padding-top: 30px;
+            padding-right:20px;
+            padding-left:15px;
+            position: relative;
+            top:-1050px;
+            left:1120px;
+        }
+        #but1{
+            width:300px;
+            height:40px;
+            position: relative;
+            top:-120px;
+            left: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #but1:hover{
+            background-color: rgba(128, 128, 128,0.2);
+        }
+        #but2:hover{
+            background-color: rgba(128, 128, 128,0.2);
+        }
+        #but3:hover{
+            background-color: rgba(128, 128, 128,0.2);
+        }
+        #but4:hover{
+            background-color: rgba(128, 128, 128,0.2);
+        }
+        #but2{
+            width:300px;
+            height:40px;
+            position: relative;
+            top:-470px;
+            left:400px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #but3{
+            width:300px;
+            height:40px;
+            position: relative;
+            top:-820px;
+            left: 770px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #but4{
+            width:300px;
+            height:40px;
+            position: relative;
+            top:-1170px;
+            left: 1140px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #name{
+            margin-left: 25px;
+            width:95%;
+            height: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        #mail{
+            margin-left: 25px;
+            width:95%;
+            height: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #sub{
+            margin-left: 25px;
+            width:95%;
+            height: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #com{
+            margin-left: 25px;
+            width:95%;
+            height: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .fotter{
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 55px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #send{
+            background-color: black;
+            color: white;
+            width:150px;
+            height:40px;
+            margin-left: 25px;
+            border: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #send:hover{
+            background-color: rgba(128, 128, 128,0.6);
+            color:black;
+        }
+        iframe{
+            width:100%;
+            height: 500px;
+            margin-left: 25px;
+        }
+        #middle{
+            display: inline-block;
+            width:70px;
+            height:70px;
+            background-color: rgba(0, 0, 0,0.6);
+            color: white;
+            position: absolute;
+            top:490px;
+            left:620px;
+            padding-left: 10px;
+            text-align: center;
+            padding-top: -10px;
+        }
+        #over{
+            width: 100px;
+            height: 40px;
+            color: white;
+            position: absolute;
+            top:500px;
+            left: 710px;
+
+        }
+        
+
+
+    </style>
+</head>
+
+
+
+
+<body>
+    <nav id="nav">
+    <div id="art">
+        <b>BR</b>Architects
+    </div>
+    <div class="crat">
+        <div id="project"><a href="#pro" style="text-decoration: none; color:black;" >Projects</a></div>
+        <div id="about"><a href="#abo" style="text-decoration: none;color:black;">About</a></div>
+        <div id="contact"><a href="#con" style="text-decoration: none;color:black;"> Contact</a></div>
+    </div>
+    </nav>
+    <img src="https://www.w3schools.com/w3images/architect.jpg"><br>
+    <div id="phone"><h3 id="pro">Projects</h3><hr></div>
+    <div class="col">
+        <img src="https://www.w3schools.com/w3images/house5.jpg" id="col1">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" id="col2">
+        <img src="https://www.w3schools.com/w3images/house3.jpg" id="col3">
+        <img src="https://www.w3schools.com/w3images/house4.jpg" id="col4">
+    </div>
+    <p id="summer">Summer House</p>
+    <p id="brick">Brick House</p>
+    <p id="renovated">Renovated</p>
+    <p id="barn">Barn House</p>
+    <div class="row">
+        <img src="https://www.w3schools.com/w3images/house2.jpg"  id="row1">
+        <img src="https://www.w3schools.com/w3images/house5.jpg"  id="row2">
+        <img src="https://www.w3schools.com/w3images/house4.jpg"  id="row3">
+        <img src="https://www.w3schools.com/w3images/house3.jpg"  id="row4">
+    </div>
+    <p id="sum">Summer House</p>
+    <p id="bri">Brick House</p>
+    <p id="ren">Renovated</p>
+    <p id="bar">Barn House</p>
+     
+    <div id="charger"><h3 id="abo">About</h3><hr></div>
+    <p style="margin-left: 25px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+
+    <div class="img">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" id="img1">
+        <img src="https://www.w3schools.com/w3images/team1.jpg" id="img2">
+        <img src="https://www.w3schools.com/w3images/team3.jpg" id="img3">
+        <img src="https://www.w3schools.com/w3images/team4.jpg" id="img4">
+    </div>
+
+
+    <div class="text">
+        <p id="p1"><b><span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">John Doe</span></b><br><br>
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:rgb(126, 126, 126)"> CEO&Founder</span><br><br>
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" >Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </span>
+            </p>
+            <button id="but1">Contact</button>
+
+        <p id="p2"><b><span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">John Doe</span></b><br><br>
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:rgb(126, 126, 126)">Architect</span> <br><br> 
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </span>
+            </p>
+            <button id="but2">Contact</button> 
+
+        <p id="p3"><b><span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Mike Ross</span></b><br><br>
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:rgb(126, 126, 126)">Architect</span><br><br>
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </span>
+        </p>
+        <button id="but3">Contact</button>
+
+        <p id="p4"><b><span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Dan Star</span></b><br><br>
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:rgb(126, 126, 126)">Architect</span> <br><br>
+            <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </span>
+            </p>
+         <button id="but4">Contact</button>
+    </div>
+
+
+
+        <div style="margin-top: -240px; margin-left: 25px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><h3 id="con">Contact</h3><hr></div>
+         <h4 style="margin-left: 25px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lets get in touch and talk about your next project.</h4>
+    
+    
+     <form class="from">
+        <lable for="name"></lable>
+        <input type="text" id="name" placeholder="Name"><br><br>
+
+        <lable for="mail"></lable>
+        <input type="email" id="mail"placeholder="Email" ><br><br>
+
+        <lable for="sub"></lable>
+        <input type="text" id="sub"placeholder="Subject">
+
+        <lable for="com"></lable><br><br>
+        <input type="text" id="com"placeholder="Comment"><br><br><br>
+    </form> 
+
+    <button id="send" >SEND MESSAGE</button><br><br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60923.63291690146!2d78.40399353949662!3d17.376861955941795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99ddfbb1f62f%3A0x8763da5631550671!2sGoogolplex%20Academy!5e0!3m2!1sen!2sin!4v1706103789437!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="fotter">
+        Powered by <u>BR Architects</u>
+    </div>
+    <div id="middle"><h1>BR</h1></div>
+    <div id="over"><h2>Architects</h2></div>
+</body>
+</html>
